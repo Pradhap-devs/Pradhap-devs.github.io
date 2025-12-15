@@ -13,6 +13,7 @@ form.addEventListener("submit",(e)=>{
     localStorage.setItem("signupEmail",useremail)
     
     alert("signup done sussesfully")
-    open("./login.html")
+    open("login.html")
+
 
 })

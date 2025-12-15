@@ -1,0 +1,111 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+body{
+    background: url(https://png.pngtree.com/thumb_back/fh260/background/20220217/pngtree-xiaoqingxin-mobile-phone-registration-appointment-medical-background-image_953254.jpg);
+    background-repeat: none;
+    background-size: cover;
+}
+
+.outer{
+    height: 100vh;
+   
+   
+      display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.inner{
+   
+  
+    border-top-left-radius: 50px;
+    border-bottom-left-radius: 50px;
+ 
+
+
+
+}
+h1{
+    padding-left: 50px;
+    margin-bottom: 10px;
+}
+form{
+    width: 300px;
+   
+     padding: 20px;
+    border-radius: 20px;
+    box-shadow: 0px 3px 4px 3px black;
+        
+}
+input{
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 15px;
+}
+button{
+    width: 100%;
+    padding: 10px;
+    border-radius: 15px;
+    background-color: rgb(237, 174, 15);
+    font-size: 15px;
+    font-weight: bold;
+    margin-bottom: 5px;
+    border: 2px yellow;
+    cursor: pointer;
+    transition: all 0.5s ease-in ;
+}
+label{
+    display: block;
+    margin-bottom:5px;
+    font-size: 20px;
+    font-weight: bold;
+    text-transform:uppercase;
+    
+}
+
+img{
+    width:600px;
+}
+
+input::placeholder{
+    font-weight: bold;
+    font-size: 15px;
+}
+.footer{
+    display: flex;
+    justify-content: space-between;
+    font-size:15px;
+    font-weight: bold;
+    text-transform: capitalize;
+
+}
+a{
+    text-decoration: none;
+    color: rgb(16, 16, 16);
+    font-weight:bold;
+    transition: all;
+   
+    
+}
+
+button:hover{
+    transform: scale(0.8);
+    background-color: orangered;
+    color: whitesmoke;
+    font-size: 20px;
+
+}
+a:hover{
+    color: blue;
+    translate: 5px;
+
+}
+
+
+

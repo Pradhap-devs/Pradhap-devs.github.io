@@ -55,7 +55,7 @@ let logout = document.querySelector("button")
 
 logout.addEventListener("click",()=>{
 
-    open('./signup.html')
+    open('signup.html')
 })
 
 let search=document.querySelector("input")
@@ -71,6 +71,7 @@ let checkUsers=(data)=>{
     })
 
     diplayUser(x)
+
 
 
 }

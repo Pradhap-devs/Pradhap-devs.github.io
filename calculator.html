@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    .outer{
+        background: linear-gradient(pink,aqua);
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+       
+    }
+
+    .inner{
+        width: 300px;
+        border-radius: 10px;
+        background: linear-gradient(rgb(236, 217, 217));
+        padding: 20px;
+        box-shadow:inset 2px 3px  8px black;
+
+       
+        
+       
+        
+    }
+    button{
+        height: 50px;
+        width: 50px;
+        margin-bottom: 10px;
+        border-radius: 5px;
+        background-color: black;
+        color: aqua;
+        font-size: 20px;
+        box-shadow:  2px white;
+
+        font-weight: bold;
+
+       
+       
+       
+
+    }
+    input{
+        width: 100%;
+         padding: 15px;
+        margin-bottom: 10px;
+        border-radius: 10px;
+        text-align: end;
+        font-size: 30px;
+        font-weight: bold;
+        background: linear-gradient(grey,white);
+        
+    }
+    .row{
+        width: 100%;
+     
+        display: flex;
+        justify-content: space-around;
+       
+        
+    }
+    #button1:hover{
+        background-color:orange;
+        border-radius: 50%;
+        box-shadow: black;
+        color: black;
+
+
+    }
+
+</style>
+<body>
+   <div class="outer">
+    <div class="inner">
+        <input type="text">
+        <div class="row">
+            <button onclick="erase()" id="button1">AC</button>
+            <button onclick="lav('%')">%</button>
+            <button onclick="backspace()">⬅</button>
+            <button onclick="lav('/')">/</button>
+            
+        </div>
+         <div class="row">
+            <button onclick="lav('7')">7</button>
+            <button onclick="lav('8')">8</button>
+            <button onclick="lav('9')">9</button>
+            <button onclick="lav('*')">x</button>
+            
+        </div>
+         <div class="row">
+            <button onclick="lav('4')">4</button>
+            <button onclick="lav('5')">5</button>
+            <button onclick="lav('6')">6</button>
+            <button onclick="lav('-')">-</button>
+            
+        </div>
+         <div class="row">
+            <button onclick="lav('1')">1</button>
+            <button onclick="lav('2')">2</button>
+            <button onclick="lav('3')">3</button>
+            <button onclick="lav('+')">+</button>
+            
+        </div>
+         <div class="row">
+            <button onclick="lav('00')">00</button>
+            <button onclick="lav('0')">0</button>
+            <button onclick="lav('.')">.</button>
+            <button onclick="calculate()">=</button>
+            
+        </div>
+    </div>
+   </div> 
+   <script src="./calculator.js"
+   ></script>
+</body>
+</html>

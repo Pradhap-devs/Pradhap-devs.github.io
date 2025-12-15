@@ -25,8 +25,9 @@ form.addEventListener("submit",(e)=>{
     }
     else{
         alert("login susessfully")
-        open("./home.html")
+        open("home.html")
     }
+
 
 
 

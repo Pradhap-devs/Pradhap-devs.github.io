@@ -5,9 +5,7 @@
 
 }
 body{
-    background: url(./portfolioimg.jpg);
-    background-repeat: none;
-    background-size: cover;
+   background-color:blue;
 }
 
 .outer{
@@ -160,5 +158,6 @@ a:hover{
     font-size: 14px;
   }
 }
+
 
 
